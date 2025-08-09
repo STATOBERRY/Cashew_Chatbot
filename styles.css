@@ -1,0 +1,4 @@
+body, .navbar, .video-hero-section, .video-hero-section video {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}

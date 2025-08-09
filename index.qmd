@@ -1,0 +1,153 @@
+---
+title: ""
+format: html
+editor: visual
+# comments:
+#   utterances:
+#     repo: STATOBERRY/The-RAISINS-Website
+---
+
+```{=html}
+<!-- FULL-SCREEN VIDEO HERO -->
+<div class="video-hero-section">
+  <video autoplay muted loop playsinline id="bg-video" poster="www/ai-poster.jpg">
+    <source src="www/ai.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+<div class="video-hero-content">
+    <h2>CASHEW BOT</h2>
+    <h2>ICAR - Directorate of Cashew Research, Puttur</h2>
+  </div>
+</div>
+
+<style>
+.video-hero-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin-left: calc(-50vw + 50%);
+  overflow: hidden;
+}
+
+.video-hero-section video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Center the text both vertically and horizontally */
+.video-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.video-hero-content h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.video-hero-content h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.video-hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.45));
+  z-index: 1;
+}
+</style>
+```
+
+
+```{=html}
+<!-- Boxes Section -->
+<div class="boxes-section">
+  <div class="box">
+    <img src="www/image1.jpg" alt="Image 1">
+    <a href="https://chat.openai.com" target="_blank">Cashew Chat Bot</a>
+  </div>
+
+  <div class="box">
+    <img src="www/image2.jpg" alt="Image 2">
+    <a href="https://telegram.org" target="_blank">Telegram Bot</a>
+  </div>
+
+  <div class="box">
+    <img src="www/image3.jpg" alt="Image 3">
+    <a href="https://icar.org.in" target="_blank">Extension Agents</a>
+  </div>
+</div>
+
+<style>
+/* Container holding the three boxes */
+.boxes-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background: #f8f8f8;
+  flex-wrap: wrap; /* Makes it responsive */
+}
+
+/* Each box */
+.box {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 350px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.box:hover {
+  transform: translateY(-5px);
+}
+
+/* Image inside the box */
+.box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Link text */
+.box a {
+  display: block;
+  padding: 15px;
+  color: #007BFF;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.box a:hover {
+  color: #0056b3;
+}
+</style>
+```

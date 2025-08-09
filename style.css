@@ -1,0 +1,5 @@
+.navbar, .navbar-expand-lg {
+  display: flex !important;
+  position: relative;
+  z-index: 1000; /* ensure it’s above video */
+}
