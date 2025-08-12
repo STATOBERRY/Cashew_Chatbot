@@ -9,7 +9,7 @@ project:
     - CNAME
 
 website:
-  title: "KAbCon 2025"
+  title: "CASHEW BOT"
   description: "International Conference on Community Agrobiodiversity Management in Kerala"
   site-url: "https://kabcon2025.org"
   # repo-actions: [issue]
@@ -25,8 +25,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "<span style='padding:6px 14px; background-color:#5e17eb; color:white; border-radius:6px;'>Register</span>"
-        href: "https://registration-link.com"
     right:
       - icon: instagram
         href: "https://instagram.com/kabcon2025"
@@ -35,7 +33,7 @@ website:
   page-footer:
       background: "#066b23" 
       left: |
-          <font size="4">© 2025 Kerala State Biodiversity Board & Kerala Agricultural University </font>
+          <font size="4">© ICAR-DCR PUTTUR </font>
       center: |
            <font size="4">Powered by <strong>STATOBERRY LLP</strong> </font>
       right: |
