@@ -1,6 +1,6 @@
 /* Remove space above banner */
 body, .navbar, .banner {
-  margin-top: 0 !important;
+  margin-top: 10 !important;
   padding-top: 0 !important;
 }
 
