@@ -12,7 +12,8 @@
                                 align-items: center;
                                 height: 100vh;
   }
-
+  
+  
 /* Floating Container */
   .chatbot-container {
     background: white;
@@ -96,7 +97,7 @@ p {
   <body>
   
   <div class="chatbot-container">
-    <img src="images/telegram.png" alt="Telegram Logo" class="logo">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" class="logo">
       <h1>Cashew Chatbot</h1>
       <p>Scan the QR code or click the button below to start chatting with our Cashew Farming Assistant.</p>
       
@@ -107,14 +108,17 @@ p {
           
           <!-- Start Chat & Copy Link -->
           <div>
-          <a href="https://t.me/YourCashewBotUsername" target="_blank" class="start-btn">Start Chat on Telegram</a>
+          <a href="https://t.me/cashewnew_bot" target="_blank" class="start-btn">
+  Start Chat on Telegram
+</a>
+
             <button class="copy-btn" onclick="copyBotLink()">Copy Link</button>
               </div>
               </div>
               
               <script>
               function copyBotLink() {
-                const botLink = "https://t.me/YourCashewBotUsername";
+                const botLink = "https://t.me/cashewnew_bot";
                 navigator.clipboard.writeText(botLink).then(() => {
                   alert("Bot link copied to clipboard!");
                 });
